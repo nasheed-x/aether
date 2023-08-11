@@ -471,6 +471,26 @@
     [
       "e12346fa-509d-4de9-8ab1-dced307292db",
       ""
+    ],
+    [
+      "b5ec7ecd-943d-4169-981a-c46b6432f873",
+      "sensors"
+    ],
+    [
+      "c23bfb85-0f05-40d7-b8da-b36b200d10d9",
+      "power"
+    ],
+    [
+      "a5bc5271-f6b1-46bc-807d-d0d88ce9901f",
+      "esp32"
+    ],
+    [
+      "a3faea7d-8c31-41d2-bac5-217146c7d072",
+      "shared_mcu_buses"
+    ],
+    [
+      "7d58c90a-6730-4b63-ae17-c9d1fe4b2f54",
+      "connectors"
     ]
   ],
   "text_variables": {}
