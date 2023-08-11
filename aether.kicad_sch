@@ -3540,7 +3540,7 @@
     (uuid 8d1addc7-3b9c-479a-bb46-6be634d8c264)
   )
   (text "Notes:\n- Add header Pins, antenna pins, verify connectors\n- Verify VBUS, VBAT logic\n- Need Auto Reset/Boot Logic for STM32 and ESP32 on USB\n\n"
-    (at 179.07 177.8 0)
+    (at 177.8 176.53 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a8754d9c-9d80-451b-92c8-59be2dc7a942)
   )
