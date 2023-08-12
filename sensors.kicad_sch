@@ -5899,11 +5899,6 @@
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid 3ac91929-f856-4744-aaef-2f6133b198e2)
   )
-  (text "Released Under The Creative Commons\nAttribution Share-Alike 4.0 License\nhttps://creativecommons.orq/licenses/by-sa/4.0/"
-    (at 240.03 175.26 0)
-    (effects (font (face "KiCad Font") (size 0.75 0.75)) (justify left bottom))
-    (uuid 51f88da3-dd2f-4c60-a50f-2ecda6915566)
-  )
   (text "SPI CS Pull Up" (at 142.24 193.04 0)
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid 6a178d53-cebf-4aa0-bc3b-2c1789a580f3)
@@ -7981,8 +7976,8 @@
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (pin "1" (uuid ed34f1d3-6771-4265-8aca-86da086b1d09))
-    (pin "GND" (uuid f8427b4b-27b6-4b7f-aada-3c9a817720ae))
-    (pin "GND" (uuid f8427b4b-27b6-4b7f-aada-3c9a817720ae))
+    (pin "GND" (uuid f8427b4b-27b6-4b7f-aada-3c9a817720af))
+    (pin "GND" (uuid f8427b4b-27b6-4b7f-aada-3c9a817720af))
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/b5ec7ecd-943d-4169-981a-c46b6432f873"
