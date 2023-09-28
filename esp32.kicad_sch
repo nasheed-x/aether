@@ -6921,7 +6921,7 @@
     (property "Reference" "R27" (at 96.52 175.26 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10k" (at 93.98 175.26 90)
+    (property "Value" "4k7" (at 93.98 175.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 95.758 175.26 90)
@@ -7440,7 +7440,7 @@
     (property "Reference" "R28" (at 96.52 187.96 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10k" (at 93.98 187.96 90)
+    (property "Value" "4k7" (at 93.98 187.96 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 95.758 187.96 90)
@@ -7663,7 +7663,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 85.09 95.25 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 8cef080a-b495-4d88-98de-081cf71ff19c)
     (property "Reference" "#PWR043" (at 91.44 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7677,7 +7677,7 @@
     (property "Datasheet" "" (at 85.09 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 72591f7e-0f43-42b4-ba69-b1618fc7a75b))
+    (pin "1" (uuid 9595b300-52b2-4364-a98f-a7397270cc85))
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
