@@ -1,6 +1,6 @@
-# Aether
+# Aether: Flight Computer
 
-[![View on CADLAB.io](https://cadlab.io/badge/27167)](https://cadlab.io/project/27167)
+[![View on CADLAB.io](https://img.shields.io/badge/View%20on-CADLAB.io-blue.svg)](https://cadlab.io/project/27167)
 
 ## Overview
 
