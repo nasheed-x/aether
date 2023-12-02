@@ -5508,7 +5508,7 @@
   (symbol (lib_id "osh_logo:LOGO") (at 276.86 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06c94b18-f36d-4c15-b770-ac0e7aaf5f29)
-    (property "Reference" "#G1" (at 276.86 167.7874 0)
+    (property "Reference" "#G?" (at 276.86 167.7874 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "LOGO" (at 276.86 180.1926 0)
@@ -5523,7 +5523,7 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#G1") (unit 1)
+          (reference "#G?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
           (reference "#G10") (unit 1)
@@ -5535,7 +5535,7 @@
   (symbol (lib_id "Device:R") (at 48.26 127 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d78cba1-44e8-4270-87f6-9502ad9920a2)
-    (property "Reference" "R4" (at 48.26 124.46 90)
+    (property "Reference" "R?" (at 48.26 124.46 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 48.26 127 90)
@@ -5552,10 +5552,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "R4") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "R3") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -5564,7 +5564,7 @@
   (symbol (lib_id "Device:C") (at 48.26 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2150efbf-5f96-4137-bc16-39a7dd1acfa3)
-    (property "Reference" "C3" (at 48.26 81.28 0)
+    (property "Reference" "C?" (at 48.26 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 50.8 83.82 0)
@@ -5581,10 +5581,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "C3") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "C5") (unit 1)
+          (reference "C36") (unit 1)
         )
       )
     )
@@ -5593,7 +5593,7 @@
   (symbol (lib_id "power:GND") (at 267.97 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21a1fa6c-c141-4f2c-a9b0-7e6031bfd5a3)
-    (property "Reference" "#PWR07" (at 267.97 88.9 0)
+    (property "Reference" "#PWR?" (at 267.97 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 267.97 86.36 90)
@@ -5609,10 +5609,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR0179") (unit 1)
         )
       )
     )
@@ -5621,7 +5621,7 @@
   (symbol (lib_id "power:GND") (at 181.61 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 272e6c6b-cd0a-4686-a112-04420229150c)
-    (property "Reference" "#PWR022" (at 181.61 142.24 0)
+    (property "Reference" "#PWR?" (at 181.61 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 181.61 139.7 90)
@@ -5637,13 +5637,13 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/b5ec7ecd-943d-4169-981a-c46b6432f873"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR0178") (unit 1)
         )
       )
     )
@@ -5652,7 +5652,7 @@
   (symbol (lib_id "power:GND") (at 245.11 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27fca6a1-477f-4e5e-a77e-74868f091091)
-    (property "Reference" "#PWR07" (at 245.11 88.9 0)
+    (property "Reference" "#PWR?" (at 245.11 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 245.11 86.36 90)
@@ -5668,10 +5668,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR0180") (unit 1)
         )
       )
     )
@@ -5680,7 +5680,7 @@
   (symbol (lib_id "power:GND") (at 142.24 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28b979da-1125-4065-8e9a-3a6388bed151)
-    (property "Reference" "#PWR022" (at 142.24 137.16 0)
+    (property "Reference" "#PWR?" (at 142.24 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.24 134.62 90)
@@ -5696,13 +5696,13 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/b5ec7ecd-943d-4169-981a-c46b6432f873"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR0177") (unit 1)
         )
       )
     )
@@ -5737,7 +5737,7 @@
   (symbol (lib_id "Device:R") (at 48.26 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 454a0e83-5ce4-435b-92ef-8acef3f4bf75)
-    (property "Reference" "R1" (at 48.26 72.39 90)
+    (property "Reference" "R?" (at 48.26 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 48.26 74.93 90)
@@ -5754,10 +5754,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "R2") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
     )
@@ -5766,7 +5766,7 @@
   (symbol (lib_id "power:GND") (at 74.93 129.54 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 618c123f-cf37-4baf-b51e-9930558d4711)
-    (property "Reference" "#PWR05" (at 81.28 129.54 0)
+    (property "Reference" "#PWR?" (at 81.28 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.74 129.54 90)
@@ -5782,10 +5782,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR0173") (unit 1)
         )
       )
     )
@@ -5794,7 +5794,7 @@
   (symbol (lib_id "Device:R") (at 86.36 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 659e266e-c2c0-47a2-81d4-c98e17c1277e)
-    (property "Reference" "R6" (at 88.9 127 0)
+    (property "Reference" "R?" (at 88.9 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 88.9 129.54 0)
@@ -5811,10 +5811,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "R6") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "R7") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -5823,7 +5823,7 @@
   (symbol (lib_id "power:GND") (at 107.95 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6778d28b-a144-43b1-b23f-05d84b8ed51b)
-    (property "Reference" "#PWR03" (at 114.3 80.01 0)
+    (property "Reference" "#PWR?" (at 114.3 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 80.01 90)
@@ -5839,10 +5839,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR0171") (unit 1)
         )
       )
     )
@@ -5851,7 +5851,7 @@
   (symbol (lib_name "TPS562201DDCR_2") (lib_id "TPS562201DDCR:TPS562201DDCR") (at 63.5 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 686e47e5-5cce-48ca-9bc4-a88e9971ac0e)
-    (property "Reference" "U2" (at 63.5 110.49 0)
+    (property "Reference" "U?" (at 63.5 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS562201DDCR" (at 63.5 113.03 0)
@@ -5884,10 +5884,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "U2") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "U3") (unit 1)
+          (reference "U11") (unit 1)
         )
       )
     )
@@ -5896,7 +5896,7 @@
   (symbol (lib_id "Device:C") (at 34.29 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 721701dd-5a76-40c6-814c-1494e56c9f01)
-    (property "Reference" "C2" (at 34.29 66.04 0)
+    (property "Reference" "C?" (at 34.29 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 36.83 68.58 0)
@@ -5913,10 +5913,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "C2") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "C1") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -5925,13 +5925,13 @@
   (symbol (lib_id "Simulation_SPICE:PNP") (at 144.78 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74c1e2fa-c349-46c7-a8f9-2b68b7723da7)
-    (property "Reference" "Q8" (at 149.86 64.77 0)
+    (property "Reference" "Q6" (at 149.86 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PNP" (at 149.86 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 180.34 66.04 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 180.34 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 180.34 66.04 0)
@@ -5952,7 +5952,7 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "Q8") (unit 1)
+          (reference "Q6") (unit 1)
         )
       )
     )
@@ -5961,7 +5961,7 @@
   (symbol (lib_id "power:GND") (at 26.67 72.39 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8267ceb5-ee35-448c-9d13-ba5f387ca999)
-    (property "Reference" "#PWR01" (at 20.32 72.39 0)
+    (property "Reference" "#PWR?" (at 20.32 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 22.86 72.39 90)
@@ -5977,10 +5977,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR0170") (unit 1)
         )
       )
     )
@@ -5989,7 +5989,7 @@
   (symbol (lib_id "Sensor_Energy:INA219AxD") (at 181.61 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82c65da4-9565-45c6-9e05-8816fb48b3c1)
-    (property "Reference" "U1" (at 183.8041 114.3 0)
+    (property "Reference" "U?" (at 183.8041 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "INA219AxD" (at 183.8041 116.84 0)
@@ -6012,10 +6012,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/b5ec7ecd-943d-4169-981a-c46b6432f873"
-          (reference "U1") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "U1") (unit 1)
+          (reference "U12") (unit 1)
         )
       )
     )
@@ -6024,7 +6024,7 @@
   (symbol (lib_id "Device:C") (at 95.25 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84da4998-0929-46a7-99f0-e18f57287b66)
-    (property "Reference" "C4" (at 99.06 71.12 0)
+    (property "Reference" "C?" (at 99.06 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 99.06 73.66 0)
@@ -6041,10 +6041,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "C4") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "C7") (unit 1)
+          (reference "C38") (unit 1)
         )
       )
     )
@@ -6053,7 +6053,7 @@
   (symbol (lib_id "Device:R") (at 135.89 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 859a5617-0741-490c-873e-231bee8cfe0a)
-    (property "Reference" "R8" (at 138.43 80.01 0)
+    (property "Reference" "R?" (at 138.43 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 138.43 82.55 0)
@@ -6070,10 +6070,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "R8") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "R1") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -6082,7 +6082,7 @@
   (symbol (lib_id "XT30PW-M:XT30PW-M") (at 190.5 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85c7bf7c-c203-409f-9161-be02ece591d1)
-    (property "Reference" "J1" (at 186.69 66.04 0)
+    (property "Reference" "J?" (at 186.69 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "XT30PW-M" (at 186.69 68.58 0)
@@ -6114,7 +6114,7 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "J1") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
           (reference "J1") (unit 1)
@@ -6126,7 +6126,7 @@
   (symbol (lib_id "Device:C") (at 105.41 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d18bd13-6a9c-45a1-95b0-c70c2d664164)
-    (property "Reference" "C10" (at 109.22 123.19 0)
+    (property "Reference" "C?" (at 109.22 123.19 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 109.22 125.73 0)
@@ -6143,10 +6143,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "C10") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "C10") (unit 1)
+          (reference "C41") (unit 1)
         )
       )
     )
@@ -6155,7 +6155,7 @@
   (symbol (lib_id "Device:R") (at 267.97 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e862d81-9743-4f50-92e6-41433dd2d9f3)
-    (property "Reference" "R46" (at 270.51 67.31 0)
+    (property "Reference" "R52" (at 270.51 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "240" (at 270.51 69.85 0)
@@ -6172,7 +6172,7 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "R46") (unit 1)
+          (reference "R52") (unit 1)
         )
       )
     )
@@ -6181,7 +6181,7 @@
   (symbol (lib_id "Device:C") (at 105.41 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92920c6c-4e86-4b4b-92f5-d16f21b81d33)
-    (property "Reference" "C5" (at 109.22 71.12 0)
+    (property "Reference" "C?" (at 109.22 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 109.22 73.66 0)
@@ -6198,10 +6198,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "C5") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "C9") (unit 1)
+          (reference "C40") (unit 1)
         )
       )
     )
@@ -6210,7 +6210,7 @@
   (symbol (lib_id "Device:R") (at 195.58 129.54 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ff5fdd5-d9c5-4ad2-9638-c2cd0d4f9ee3)
-    (property "Reference" "R17" (at 195.58 127 90)
+    (property "Reference" "R?" (at 195.58 127 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 195.58 129.54 90)
@@ -6227,13 +6227,13 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "R17") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/b5ec7ecd-943d-4169-981a-c46b6432f873"
-          (reference "R50") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "R50") (unit 1)
+          (reference "R48") (unit 1)
         )
       )
     )
@@ -6268,7 +6268,7 @@
   (symbol (lib_id "Device:C") (at 142.24 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9ea8c26-37f7-4ae8-8cc0-f04d53750f80)
-    (property "Reference" "C17" (at 142.24 124.46 0)
+    (property "Reference" "C?" (at 142.24 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 144.78 127 0)
@@ -6285,13 +6285,13 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "C17") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/b5ec7ecd-943d-4169-981a-c46b6432f873"
-          (reference "C33") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "C33") (unit 1)
+          (reference "C42") (unit 1)
         )
       )
     )
@@ -6300,7 +6300,7 @@
   (symbol (lib_id "Device:R") (at 201.93 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ac29199a-e75b-4111-91d0-d602a474b6f8)
-    (property "Reference" "R7" (at 201.93 68.58 90)
+    (property "Reference" "R?" (at 201.93 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.01" (at 201.93 71.12 90)
@@ -6317,10 +6317,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "R8") (unit 1)
+          (reference "R50") (unit 1)
         )
       )
     )
@@ -6329,7 +6329,7 @@
   (symbol (lib_id "B5819W-TP:B5819W-TP") (at 147.32 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b30ab671-14c1-4024-874f-b8365770dcb7)
-    (property "Reference" "D1" (at 147.32 82.55 0)
+    (property "Reference" "D?" (at 147.32 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "B5819W-TP" (at 147.32 80.01 0)
@@ -6349,10 +6349,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "D1") (unit 1)
+          (reference "D?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "D1") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -6361,7 +6361,7 @@
   (symbol (lib_id "power:GND") (at 74.93 77.47 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9de06d3-b0f3-4315-b897-3386b6f180c2)
-    (property "Reference" "#PWR02" (at 81.28 77.47 0)
+    (property "Reference" "#PWR?" (at 81.28 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.74 77.47 90)
@@ -6377,10 +6377,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR0169") (unit 1)
         )
       )
     )
@@ -6389,7 +6389,7 @@
   (symbol (lib_id "Device:C") (at 44.45 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ba910129-2920-42fa-a1ef-41a833f91733)
-    (property "Reference" "C7" (at 44.45 118.11 0)
+    (property "Reference" "C?" (at 44.45 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 46.99 120.65 0)
@@ -6406,10 +6406,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "C7") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "C4") (unit 1)
+          (reference "C35") (unit 1)
         )
       )
     )
@@ -6418,7 +6418,7 @@
   (symbol (lib_id "Device:C") (at 48.26 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bcc3e2ca-61c6-4b74-b3df-e3a0880bda9b)
-    (property "Reference" "C8" (at 48.26 133.35 0)
+    (property "Reference" "C?" (at 48.26 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 50.8 135.89 0)
@@ -6435,10 +6435,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "C8") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "C6") (unit 1)
+          (reference "C37") (unit 1)
         )
       )
     )
@@ -6447,7 +6447,7 @@
   (symbol (lib_id "Device:C") (at 34.29 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bfb4847e-734a-4d8d-bd86-0d6224a5d158)
-    (property "Reference" "C6" (at 34.29 118.11 0)
+    (property "Reference" "C?" (at 34.29 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 36.83 120.65 0)
@@ -6464,10 +6464,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "C6") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "C2") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
     )
@@ -6476,7 +6476,7 @@
   (symbol (lib_name "TPS562201DDCR_1") (lib_id "TPS562201DDCR:TPS562201DDCR") (at 63.5 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c14ddb1f-0907-492c-bc83-e3df2fb90cdf)
-    (property "Reference" "U1" (at 63.5 58.42 0)
+    (property "Reference" "U?" (at 63.5 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS562201DDCR" (at 63.5 60.96 0)
@@ -6509,10 +6509,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "U1") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "U2") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -6521,7 +6521,7 @@
   (symbol (lib_id "Device:R") (at 86.36 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c34cacbc-37b2-423a-82dd-5065d7691ea7)
-    (property "Reference" "R3" (at 88.9 74.93 0)
+    (property "Reference" "R?" (at 88.9 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 88.9 77.47 0)
@@ -6538,10 +6538,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "R3") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "R5") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -6550,7 +6550,7 @@
   (symbol (lib_id "Device:L") (at 82.55 116.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4651e5a-c330-4396-beb7-6353a8a9c674)
-    (property "Reference" "L2" (at 82.55 111.76 90)
+    (property "Reference" "L?" (at 82.55 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.9uH" (at 82.55 114.3 90)
@@ -6567,7 +6567,7 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "L2") (unit 1)
+          (reference "L?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
           (reference "L2") (unit 1)
@@ -6579,7 +6579,7 @@
   (symbol (lib_id "power:GND") (at 107.95 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4fef9d5-d030-4b89-97b4-13ee7b8ff741)
-    (property "Reference" "#PWR06" (at 114.3 132.08 0)
+    (property "Reference" "#PWR?" (at 114.3 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 132.08 90)
@@ -6595,10 +6595,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR0174") (unit 1)
         )
       )
     )
@@ -6607,7 +6607,7 @@
   (symbol (lib_id "nyuad_space:LOGO") (at 208.28 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cce4115f-2363-4303-abc1-32f58de6e9e2)
-    (property "Reference" "#G2" (at 208.28 168.3609 0)
+    (property "Reference" "#G?" (at 208.28 168.3609 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "LOGO" (at 208.28 177.0791 0)
@@ -6622,7 +6622,7 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#G2") (unit 1)
+          (reference "#G?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
           (reference "#G9") (unit 1)
@@ -6634,7 +6634,7 @@
   (symbol (lib_id "power:GND") (at 195.58 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de76433b-2e52-4a15-941c-96f6d2b3b1d0)
-    (property "Reference" "#PWR07" (at 195.58 86.36 0)
+    (property "Reference" "#PWR?" (at 195.58 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 195.58 83.82 90)
@@ -6650,10 +6650,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR0176") (unit 1)
         )
       )
     )
@@ -6662,7 +6662,7 @@
   (symbol (lib_id "Device:C") (at 44.45 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df13fe9f-ace8-4955-850a-b4f59cc1001f)
-    (property "Reference" "C1" (at 44.45 66.04 0)
+    (property "Reference" "C?" (at 44.45 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 46.99 68.58 0)
@@ -6679,10 +6679,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "C1") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "C3") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -6691,7 +6691,7 @@
   (symbol (lib_id "Device:R") (at 245.11 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5d7c8fb-8f0f-4974-8c91-33ead80b0dbf)
-    (property "Reference" "R45" (at 247.65 67.31 0)
+    (property "Reference" "R51" (at 247.65 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "560" (at 247.65 69.85 0)
@@ -6708,7 +6708,7 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "R45") (unit 1)
+          (reference "R51") (unit 1)
         )
       )
     )
@@ -6717,7 +6717,7 @@
   (symbol (lib_id "Device:L") (at 82.55 64.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f050344f-5fcb-4f7e-81a8-200697528254)
-    (property "Reference" "L1" (at 82.55 59.69 90)
+    (property "Reference" "L?" (at 82.55 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.9uH" (at 82.55 62.23 90)
@@ -6734,7 +6734,7 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "L1") (unit 1)
+          (reference "L?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
           (reference "L1") (unit 1)
@@ -6746,7 +6746,7 @@
   (symbol (lib_id "Device:R") (at 86.36 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2153641-8b31-4a62-be33-e370587eaa23)
-    (property "Reference" "R5" (at 88.9 119.38 0)
+    (property "Reference" "R?" (at 88.9 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33.2k" (at 88.9 121.92 0)
@@ -6763,10 +6763,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "R5") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "R6") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -6775,7 +6775,7 @@
   (symbol (lib_id "Device:R") (at 86.36 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3548d25-b49d-4763-a59b-1e299981225f)
-    (property "Reference" "R2" (at 88.9 67.31 0)
+    (property "Reference" "R?" (at 88.9 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "54.9k" (at 88.9 69.85 0)
@@ -6792,10 +6792,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "R2") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "R4") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -6804,7 +6804,7 @@
   (symbol (lib_id "Device:C") (at 95.25 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3858dbe-c395-48c5-84e2-84df2ab28e0e)
-    (property "Reference" "C9" (at 99.06 123.19 0)
+    (property "Reference" "C?" (at 99.06 123.19 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 99.06 125.73 0)
@@ -6821,10 +6821,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "C9") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "C8") (unit 1)
+          (reference "C39") (unit 1)
         )
       )
     )
@@ -6833,7 +6833,7 @@
   (symbol (lib_id "power:GND") (at 26.67 124.46 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f40e9da4-45bc-4e72-b21f-f8ea376f8165)
-    (property "Reference" "#PWR04" (at 20.32 124.46 0)
+    (property "Reference" "#PWR?" (at 20.32 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 22.86 124.46 90)
@@ -6849,10 +6849,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR0175") (unit 1)
         )
       )
     )
@@ -6861,7 +6861,7 @@
   (symbol (lib_id "power:GND") (at 135.89 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa7a333a-df3e-4ae5-bfe1-73b7e8ba2d9e)
-    (property "Reference" "#PWR08" (at 135.89 91.44 0)
+    (property "Reference" "#PWR?" (at 135.89 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.89 88.9 90)
@@ -6877,10 +6877,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR0172") (unit 1)
         )
       )
     )
@@ -6889,7 +6889,7 @@
   (symbol (lib_id "Device:R") (at 195.58 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd51cf4b-5967-439a-b5c9-458a16e71a7f)
-    (property "Reference" "R17" (at 195.58 134.62 90)
+    (property "Reference" "R?" (at 195.58 134.62 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 195.58 132.08 90)
@@ -6906,13 +6906,13 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "R17") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/b5ec7ecd-943d-4169-981a-c46b6432f873"
-          (reference "R51") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/c23bfb85-0f05-40d7-b8da-b36b200d10d9"
-          (reference "R51") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
     )

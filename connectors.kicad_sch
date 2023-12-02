@@ -5865,7 +5865,7 @@
   (symbol (lib_id "power:GND") (at 40.64 102.87 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0afacb31-0c94-4c41-8653-12b95ba2f0d0)
-    (property "Reference" "#PWR056" (at 34.29 102.87 0)
+    (property "Reference" "#PWR?" (at 34.29 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 36.83 102.87 90)
@@ -5881,10 +5881,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR0166") (unit 1)
         )
       )
     )
@@ -5893,7 +5893,7 @@
   (symbol (lib_id "SM04B-SRSS-TB_LF__SN_:SM04B-SRSS-TB(LF)(SN)") (at 48.26 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c22bdc7-b3b9-4f98-aba2-3f4b889a6f8b)
-    (property "Reference" "J7" (at 38.1 119.38 0)
+    (property "Reference" "J?" (at 38.1 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SM04B-SRSS-TB(LF)(SN)" (at 55.88 120.65 90)
@@ -5920,10 +5920,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "J7") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "UART1-RFD-STM32") (unit 1)
+          (reference "UART1-RFD-STM1") (unit 1)
         )
       )
     )
@@ -5932,7 +5932,7 @@
   (symbol (lib_id "power:GND") (at 86.36 144.78 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c944944-8ad1-4868-b89a-11d2f8573727)
-    (property "Reference" "#PWR043" (at 80.01 144.78 0)
+    (property "Reference" "#PWR?" (at 80.01 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 82.55 144.78 90)
@@ -5948,13 +5948,13 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/a5bc5271-f6b1-46bc-807d-d0d88ce9901f"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR0163") (unit 1)
         )
       )
     )
@@ -5963,7 +5963,7 @@
   (symbol (lib_id "SM04B-SRSS-TB_LF__SN_:SM04B-SRSS-TB(LF)(SN)") (at 50.8 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0dc9fb50-64ba-451c-aaa3-868751e45065)
-    (property "Reference" "J9" (at 43.18 193.04 0)
+    (property "Reference" "J?" (at 43.18 193.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SM04B-SRSS-TB(LF)(SN)" (at 58.42 194.31 90)
@@ -5990,10 +5990,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "J9") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "UART2-STM32") (unit 1)
+          (reference "UART2-STM1") (unit 1)
         )
       )
     )
@@ -6002,7 +6002,7 @@
   (symbol (lib_id "power:GND") (at 148.59 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f01ac5f-412e-4a56-814e-d5579ab19909)
-    (property "Reference" "#PWR043" (at 148.59 43.18 0)
+    (property "Reference" "#PWR?" (at 148.59 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 148.59 40.64 90)
@@ -6018,13 +6018,13 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/a5bc5271-f6b1-46bc-807d-d0d88ce9901f"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR0160") (unit 1)
         )
       )
     )
@@ -6033,7 +6033,7 @@
   (symbol (lib_id "SM04B-SRSS-TB_LF__SN_:SM04B-SRSS-TB(LF)(SN)") (at 157.48 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10faf986-d000-4ec0-9c4e-dfd791f21e46)
-    (property "Reference" "J9" (at 148.59 44.45 0)
+    (property "Reference" "J?" (at 148.59 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SM04B-SRSS-TB(LF)(SN)" (at 168.91 45.72 90)
@@ -6060,10 +6060,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "J9") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "RST-BOOT-ESP32") (unit 1)
+          (reference "RST-BOOT-ESP1") (unit 1)
         )
       )
     )
@@ -6156,7 +6156,7 @@
   (symbol (lib_id "Device:R") (at 100.33 31.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 22dfdf0f-2e34-42ed-8d4b-6540497cdc91)
-    (property "Reference" "R27" (at 102.87 31.75 90)
+    (property "Reference" "R?" (at 102.87 31.75 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7k" (at 100.33 31.75 90)
@@ -6173,13 +6173,13 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "R27") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/a5bc5271-f6b1-46bc-807d-d0d88ce9901f"
-          (reference "R53") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "R54") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )
@@ -6188,7 +6188,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x05_Odd_Even") (at 91.44 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25faf731-0ec0-4a21-a9d5-aa667ee9255b)
-    (property "Reference" "J14" (at 92.71 133.35 0)
+    (property "Reference" "J?" (at 92.71 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x05_Odd_Even" (at 92.71 135.89 0)
@@ -6213,7 +6213,7 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "J14") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
           (reference "SWD1") (unit 1)
@@ -6225,7 +6225,7 @@
   (symbol (lib_id "Device:R") (at 45.72 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 49647886-f4d0-42d7-b2b6-9b27afc1a554)
-    (property "Reference" "R25" (at 45.72 41.91 90)
+    (property "Reference" "R?" (at 45.72 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 45.72 44.45 90)
@@ -6242,10 +6242,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "R25") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "R25") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -6254,7 +6254,7 @@
   (symbol (lib_id "power:GND") (at 86.36 149.86 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4fdba83b-4538-4d5e-8f48-28973d8a997f)
-    (property "Reference" "#PWR043" (at 80.01 149.86 0)
+    (property "Reference" "#PWR?" (at 80.01 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 82.55 149.86 90)
@@ -6270,13 +6270,13 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/a5bc5271-f6b1-46bc-807d-d0d88ce9901f"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR0162") (unit 1)
         )
       )
     )
@@ -6285,7 +6285,7 @@
   (symbol (lib_id "nyuad_space:LOGO") (at 208.28 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 513bf848-8610-4b4f-8b23-8c2ebec108f0)
-    (property "Reference" "#G2" (at 208.28 168.3609 0)
+    (property "Reference" "#G?" (at 208.28 168.3609 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "LOGO" (at 208.28 177.0791 0)
@@ -6300,7 +6300,7 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#G2") (unit 1)
+          (reference "#G?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
           (reference "#G7") (unit 1)
@@ -6312,7 +6312,7 @@
   (symbol (lib_id "SM04B-SRSS-TB_LF__SN_:SM04B-SRSS-TB(LF)(SN)") (at 50.8 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 52c54736-f98f-4b48-963d-0976581ad933)
-    (property "Reference" "J8" (at 45.72 78.74 0)
+    (property "Reference" "J?" (at 45.72 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SM04B-SRSS-TB(LF)(SN)" (at 58.42 80.01 90)
@@ -6339,10 +6339,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "J8") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "I2C-ESP32") (unit 1)
+          (reference "I2C-ESP1") (unit 1)
         )
       )
     )
@@ -6351,7 +6351,7 @@
   (symbol (lib_id "power:GND") (at 43.18 62.23 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56887475-283c-4cf2-9130-c5ca81c74abc)
-    (property "Reference" "#PWR055" (at 36.83 62.23 0)
+    (property "Reference" "#PWR?" (at 36.83 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.37 62.23 90)
@@ -6367,10 +6367,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR0168") (unit 1)
         )
       )
     )
@@ -6379,7 +6379,7 @@
   (symbol (lib_id "power:GND") (at 43.18 176.53 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 711ab9b4-5c64-4064-b391-a8b5eba7a119)
-    (property "Reference" "#PWR057" (at 36.83 176.53 0)
+    (property "Reference" "#PWR?" (at 36.83 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.37 176.53 90)
@@ -6395,10 +6395,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR0164") (unit 1)
         )
       )
     )
@@ -6407,7 +6407,7 @@
   (symbol (lib_id "Device:R") (at 45.72 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72add9c4-7378-497e-bfc3-30261f78a46f)
-    (property "Reference" "R29" (at 45.72 81.28 90)
+    (property "Reference" "R?" (at 45.72 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 45.72 83.82 90)
@@ -6424,10 +6424,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "R29") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "R29") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -6436,7 +6436,7 @@
   (symbol (lib_id "Device:R") (at 45.72 46.99 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 780666b0-f6ec-4da2-b746-0bd1f3f01924)
-    (property "Reference" "R26" (at 45.72 49.53 90)
+    (property "Reference" "R?" (at 45.72 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 45.72 46.99 90)
@@ -6453,10 +6453,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "R26") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "R26") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -6465,7 +6465,7 @@
   (symbol (lib_id "SM04B-SRSS-TB_LF__SN_:SM04B-SRSS-TB(LF)(SN)") (at 157.48 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85505bc6-8dda-4b09-a76a-c90038e32a2e)
-    (property "Reference" "J9" (at 148.59 78.74 0)
+    (property "Reference" "J?" (at 148.59 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SM04B-SRSS-TB(LF)(SN)" (at 168.91 80.01 90)
@@ -6492,10 +6492,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "J9") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "RST-BOOT-STM32") (unit 1)
+          (reference "RST-BOOT-STM1") (unit 1)
         )
       )
     )
@@ -6504,7 +6504,7 @@
   (symbol (lib_id "power:GND") (at 43.18 22.86 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c01ecd7-379c-4c98-a1de-27375c04a6d5)
-    (property "Reference" "#PWR054" (at 36.83 22.86 0)
+    (property "Reference" "#PWR?" (at 36.83 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.37 22.86 90)
@@ -6520,10 +6520,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR0167") (unit 1)
         )
       )
     )
@@ -6532,7 +6532,7 @@
   (symbol (lib_id "power:GND") (at 40.64 140.97 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99d10647-9bca-46a3-b44c-fe9a2d6662a3)
-    (property "Reference" "#PWR057" (at 34.29 140.97 0)
+    (property "Reference" "#PWR?" (at 34.29 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 36.83 140.97 90)
@@ -6548,10 +6548,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR0165") (unit 1)
         )
       )
     )
@@ -6560,7 +6560,7 @@
   (symbol (lib_id "power:GND") (at 148.59 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae58ff69-9298-4c3e-9a5b-22449eb446fa)
-    (property "Reference" "#PWR043" (at 148.59 76.2 0)
+    (property "Reference" "#PWR?" (at 148.59 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 148.59 73.66 90)
@@ -6576,13 +6576,13 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/a5bc5271-f6b1-46bc-807d-d0d88ce9901f"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR0159") (unit 1)
         )
       )
     )
@@ -6591,7 +6591,7 @@
   (symbol (lib_id "Connector:Conn_01x05_Pin") (at 92.71 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bcfb6893-e597-4a94-abfa-45c59ead2105)
-    (property "Reference" "RFM95" (at 83.82 173.99 0)
+    (property "Reference" "RFM2" (at 83.82 173.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x05_Pin" (at 83.82 176.53 0)
@@ -6611,7 +6611,7 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "RFM95") (unit 1)
+          (reference "RFM2") (unit 1)
         )
       )
     )
@@ -6620,7 +6620,7 @@
   (symbol (lib_id "SM04B-SRSS-TB_LF__SN_:SM04B-SRSS-TB(LF)(SN)") (at 50.8 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ddbdcbcc-2689-40d3-ba75-87a5ac0114e7)
-    (property "Reference" "J6" (at 45.72 39.37 0)
+    (property "Reference" "J?" (at 45.72 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SM04B-SRSS-TB(LF)(SN)" (at 58.42 40.64 90)
@@ -6647,10 +6647,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "J6") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "I2C-STM32") (unit 1)
+          (reference "I2C-STM1") (unit 1)
         )
       )
     )
@@ -6659,7 +6659,7 @@
   (symbol (lib_id "Device:R") (at 45.72 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4d24a6b-7fb9-48f5-8a1d-d93f3f291326)
-    (property "Reference" "R30" (at 45.72 88.9 90)
+    (property "Reference" "R?" (at 45.72 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 45.72 86.36 90)
@@ -6676,10 +6676,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "R30") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "R30") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
     )
@@ -6688,7 +6688,7 @@
   (symbol (lib_id "power:GND") (at 83.82 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea90cb27-a098-45b4-b9a4-3f9b3dd11bb6)
-    (property "Reference" "#PWR043" (at 83.82 123.19 0)
+    (property "Reference" "#PWR?" (at 83.82 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 120.65 90)
@@ -6704,13 +6704,13 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/a5bc5271-f6b1-46bc-807d-d0d88ce9901f"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR0161") (unit 1)
         )
       )
     )
@@ -6719,7 +6719,7 @@
   (symbol (lib_id "osh_logo:LOGO") (at 276.86 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1a24d57-4341-41b2-bdcf-78904a711a64)
-    (property "Reference" "#G1" (at 276.86 167.7874 0)
+    (property "Reference" "#G?" (at 276.86 167.7874 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "LOGO" (at 276.86 180.1926 0)
@@ -6734,7 +6734,7 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "#G1") (unit 1)
+          (reference "#G?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
           (reference "#G8") (unit 1)
@@ -6746,7 +6746,7 @@
   (symbol (lib_id "SM04B-SRSS-TB_LF__SN_:SM04B-SRSS-TB(LF)(SN)") (at 48.26 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f7630472-dccc-4c06-a837-03eac988a730)
-    (property "Reference" "J9" (at 39.37 157.48 0)
+    (property "Reference" "J?" (at 39.37 157.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SM04B-SRSS-TB(LF)(SN)" (at 55.88 158.75 90)
@@ -6773,10 +6773,10 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "J9") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "UART1-RFD-ESP32") (unit 1)
+          (reference "UART1-RFD-ESP1") (unit 1)
         )
       )
     )
@@ -6785,7 +6785,7 @@
   (symbol (lib_id "Device:R") (at 92.71 31.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb4d30d6-7bf2-40bd-af06-1b863ec884e3)
-    (property "Reference" "R27" (at 95.25 31.75 90)
+    (property "Reference" "R?" (at 95.25 31.75 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7k" (at 92.71 31.75 90)
@@ -6802,13 +6802,13 @@
     (instances
       (project "aether"
         (path "/e12346fa-509d-4de9-8ab1-dced307292db"
-          (reference "R27") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/a5bc5271-f6b1-46bc-807d-d0d88ce9901f"
-          (reference "R53") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e12346fa-509d-4de9-8ab1-dced307292db/7d58c90a-6730-4b63-ae17-c9d1fe4b2f54"
-          (reference "R53") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
     )
