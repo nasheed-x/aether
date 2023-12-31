@@ -6498,7 +6498,7 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "RFM95W_DI4" (shape input) (at 194.31 157.48 180) (fields_autoplaced)
+  (global_label "RFM95W_DI5" (shape input) (at 194.31 157.48 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 8ebd61cf-eaf3-4bca-968e-d257bd647655)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 179.5925 157.48 0)
