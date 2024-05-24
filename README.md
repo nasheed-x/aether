@@ -2,6 +2,8 @@
 
 [![View on CADLAB.io](https://img.shields.io/badge/View%20on-CADLAB.io-blue.svg)](https://cadlab.io/project/27167)
 
+![Aether](aether.png)
+
 ## Overview
 
 Aether is a multifunctional flight computer designed as an adaptable testbed for a variety of flight hardware and software components. The primary objective of this project is to evaluate external sensors and various algorithmic approaches, with a specific focus on sensor fusion techniques. These techniques aim to extract essential data regarding the rocket's states throughout its flight. The flight computer is equipped with the capability to interface with on-board rocket hardware, including deployment mechanisms.
