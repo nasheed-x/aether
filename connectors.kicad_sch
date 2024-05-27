@@ -5113,7 +5113,7 @@
     (fill (type none))
     (uuid 5d774f24-82d5-46d0-b27a-4d96cd0df899)
   )
-  (rectangle (start 124.46 83.82) (end 185.42 121.92)
+  (rectangle (start 123.19 83.82) (end 184.15 121.92)
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid 6406f532-9bf2-4906-a19f-a9d22e0a675d)
