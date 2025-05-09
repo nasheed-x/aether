@@ -709,167 +709,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Buzzer"
-			(pin_names
-				(offset 0.0254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BZ"
-				(at 3.81 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Buzzer"
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -0.635 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -0.635 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Buzzer, polarized"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz resonator ceramic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Buzzer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Buzzer_0_1"
-				(polyline
-					(pts
-						(xy -1.651 1.905) (xy -1.143 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 2.159) (xy -1.397 1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.175)
-					(mid 3.1612 0)
-					(end 0 -3.175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy 0 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Buzzer_1_1"
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2082,6 +1921,215 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "FST-5030:FST-5030"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BUZ"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FST-5030"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprint:BUZ-SMD_FST-5030"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/367493.html"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C391031"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C391031"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FST-5030_0_1"
+				(polyline
+					(pts
+						(xy 0 3.048) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.048) (xy 2.54 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.048) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.508) (xy 4.826 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.826 5.08) (xy 2.54 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.826 5.08) (xy 4.826 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LED:WS2812B-2020"
 			(pin_names
 				(offset 0.254)
@@ -3190,6 +3238,171 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SS-3292S-L2-B:SS-3292S-L2-B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS-3292S-L2-B"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprint:SW-SMD_SS-3292S-L2-B"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/512183.html?ref=editor&logined=true"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C500057"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C500057"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS-3292S-L2-B_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -3.81 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "EH"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "EH"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -3.81 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
 							)
 						)
 					)
@@ -5091,182 +5304,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_SPDT"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPDT_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7243,12 +7280,6 @@
 		(uuid "b3378ba2-02e0-422f-be85-f8abe71d3aa9")
 	)
 	(junction
-		(at 215.9 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfb28016-cbf4-4b15-871b-3e13ae6b4f38")
-	)
-	(junction
 		(at 127 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7291,6 +7322,12 @@
 		(uuid "d663b3e6-f941-4a17-8571-32564a18c733")
 	)
 	(junction
+		(at 199.39 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc135cc4-dd0e-4269-876d-e92504ec36cb")
+	)
+	(junction
 		(at 256.54 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7320,6 +7357,10 @@
 		(at 200.66 63.5)
 		(uuid "b1fb2c3f-23be-4121-881c-cfe083f919b5")
 	)
+	(no_connect
+		(at 132.08 134.62)
+		(uuid "baf45600-e0a9-4fed-8e1b-d94b9b0077f9")
+	)
 	(wire
 		(pts
 			(xy 242.57 40.64) (xy 242.57 33.02)
@@ -7329,6 +7370,16 @@
 			(type default)
 		)
 		(uuid "00941b49-4692-4fb5-b77b-6cf71e299924")
+	)
+	(wire
+		(pts
+			(xy 209.55 93.98) (xy 209.55 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00eccd87-5785-4887-b0bd-04bd4da09e5d")
 	)
 	(wire
 		(pts
@@ -7369,6 +7420,16 @@
 			(type default)
 		)
 		(uuid "0f457112-40fc-455e-a796-a4b4289b84fe")
+	)
+	(wire
+		(pts
+			(xy 199.39 87.63) (xy 199.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4866a3-26d0-4709-9251-dea59286138d")
 	)
 	(wire
 		(pts
@@ -7479,6 +7540,26 @@
 			(type default)
 		)
 		(uuid "3234d95e-4fa0-4e17-8dbd-49f894554dfb")
+	)
+	(wire
+		(pts
+			(xy 130.81 132.08) (xy 130.81 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32bfa51e-8122-4ed3-ba2c-6ba83f75d591")
+	)
+	(wire
+		(pts
+			(xy 209.55 111.76) (xy 199.39 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3453342d-2af7-4466-b0e6-81be173b805c")
 	)
 	(wire
 		(pts
@@ -7852,7 +7933,17 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 111.76) (xy 215.9 111.76)
+			(xy 130.81 132.08) (xy 132.08 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899f1f0d-b72d-4aad-8266-50edd6437374")
+	)
+	(wire
+		(pts
+			(xy 195.58 111.76) (xy 199.39 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7982,13 +8073,13 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 96.52) (xy 215.9 96.52)
+			(xy 132.08 129.54) (xy 130.81 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aff2bdfd-c76e-46da-9e78-3e6736a0e163")
+		(uuid "b3a5beef-a35b-4eca-9119-34fa1c2e7c2c")
 	)
 	(wire
 		(pts
@@ -7999,16 +8090,6 @@
 			(type default)
 		)
 		(uuid "b5149b16-cee5-4e5f-a34c-255d2248ce40")
-	)
-	(wire
-		(pts
-			(xy 209.55 91.44) (xy 215.9 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8aa22b6-546f-4cdc-a045-a5487db4775b")
 	)
 	(wire
 		(pts
@@ -8049,6 +8130,16 @@
 			(type default)
 		)
 		(uuid "cec04e5f-64a2-4cc6-84bd-3d3df81f36a4")
+	)
+	(wire
+		(pts
+			(xy 199.39 96.52) (xy 199.39 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cecf5166-39d2-457b-a441-51a9ba5ece93")
 	)
 	(wire
 		(pts
@@ -8162,16 +8253,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 96.52) (xy 215.9 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e817231a-349e-48e8-8492-e8cbc4cb2af5")
-	)
-	(wire
-		(pts
 			(xy 208.28 39.37) (xy 210.82 39.37)
 		)
 		(stroke
@@ -8209,16 +8290,6 @@
 			(type default)
 		)
 		(uuid "f14d0536-7c33-4bcf-b1f1-aa790e33ef22")
-	)
-	(wire
-		(pts
-			(xy 130.81 137.16) (xy 130.81 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f260fa33-dd35-451b-8464-5db73d995ca7")
 	)
 	(wire
 		(pts
@@ -8875,6 +8946,28 @@
 		(uuid "40efa810-e121-43a9-a60b-004bf517e2e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 146.512 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 199.39 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4365008a-4c8c-4d03-8287-f305202d2120")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.2924 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9810,28 +9903,6 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 215.9 91.44 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b47fe52c-c041-4a7a-a92b-ff5b7e74c2ec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.9 84.3424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3.3V"
-		(shape input)
 		(at 171.45 128.27 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9848,6 +9919,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM32-RGB_IN"
+		(shape input)
+		(at 43.18 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8782474-90db-4116-875d-2f19e4229770")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.862 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10270,28 +10363,6 @@
 			)
 		)
 	)
-	(global_label "STM32-RGB_IN"
-		(shape input)
-		(at 43.18 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f71f1f4f-7d9a-479f-b126-7c6cf5b562b7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.862 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB1_D+"
 		(shape input)
 		(at 152.4 50.8 0)
@@ -10579,7 +10650,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 111.76 90)
+		(at 199.39 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10588,7 +10659,7 @@
 		(fields_autoplaced yes)
 		(uuid "0133b293-46e4-4148-93aa-6c299dfb8951")
 		(property "Reference" "#PWR0107"
-			(at 222.25 111.76 0)
+			(at 199.39 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10597,7 +10668,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 111.76 90)
+			(at 199.39 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10607,7 +10678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 111.76 0)
+			(at 199.39 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10616,7 +10687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 111.76 0)
+			(at 199.39 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10625,7 +10696,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 111.76 0)
+			(at 199.39 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11340,7 +11411,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SI5442DU-T1-GE3"
+		(property "Value" "SI5448DU-T1-GE3"
 			(at 277.876 129.286 0)
 			(effects
 				(font
@@ -11359,7 +11430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SI5442DU-T1-GE3"
+		(property "Datasheet" "SI5448DU-T1-GE3"
 			(at 256.286 131.826 0)
 			(effects
 				(font
@@ -11394,75 +11465,6 @@
 			(project "aether"
 				(path "/e12346fa-509d-4de9-8ab1-dced307292db"
 					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Buzzer")
-		(at 133.35 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "22397161-53dc-4189-bd87-08f3b2d1f2a5")
-		(property "Reference" "BZ1"
-			(at 133.604 124.206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Buzzer"
-			(at 133.604 126.746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CSS-0575B-SMT:CUI_CSS-0575B-SMT"
-			(at 132.715 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.715 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Buzzer, polarized"
-			(at 133.35 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83ea8adb-ade8-4702-bef1-56bae364acab")
-		)
-		(pin "2"
-			(uuid "16e57119-4b3a-4f6e-aaa7-ce9c2a821c9e")
-		)
-		(instances
-			(project ""
-				(path "/e12346fa-509d-4de9-8ab1-dced307292db"
-					(reference "BZ1")
 					(unit 1)
 				)
 			)
@@ -12786,77 +12788,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 204.47 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6559dee2-99c4-47b3-9585-306ae625bdd5")
-		(property "Reference" "STM_B0"
-			(at 204.47 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 204.47 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
-			(at 204.47 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 204.47 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "92b7516b-3d81-43b7-84dc-8718acb63a2a")
-		)
-		(pin "2"
-			(uuid "e135e008-c832-41a3-b6c4-714e60a6de9c")
-		)
-		(pin "1"
-			(uuid "da4839f2-d43e-490e-ae67-064719d90d50")
-		)
-		(instances
-			(project ""
-				(path "/e12346fa-509d-4de9-8ab1-dced307292db"
-					(reference "STM_B0")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0")
 		(at 185.42 48.26 0)
 		(unit 1)
@@ -13033,6 +12964,91 @@
 			(project "aether"
 				(path "/e12346fa-509d-4de9-8ab1-dced307292db"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SS-3292S-L2-B:SS-3292S-L2-B")
+		(at 203.2 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6dd5c24a-e921-4ce5-a4e4-f02dbe0ce507")
+		(property "Reference" "STM_B0"
+			(at 204.47 101.092 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS-3292S-L2-B"
+			(at 204.47 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SS-3292S-L2-B:SW-SMD_SS-3292S-L2-B"
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/512183.html?ref=editor&logined=true"
+			(at 203.327 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C500057"
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb70c38a-4ea7-4f89-837c-22fe65851ec7")
+		)
+		(pin "1"
+			(uuid "78595dbf-cccf-4f5d-989d-495fb69995fa")
+		)
+		(pin "3"
+			(uuid "2c202d44-585d-43ff-bdcd-77d911efb2b0")
+		)
+		(pin "EH"
+			(uuid "2aa4bc48-c9c8-4f92-988b-324299207332")
+		)
+		(instances
+			(project "aether"
+				(path "/e12346fa-509d-4de9-8ab1-dced307292db"
+					(reference "STM_B0")
 					(unit 1)
 				)
 			)
@@ -13347,7 +13363,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SI5442DU-T1-GE3"
+		(property "Value" "SI5448DU-T1-GE3"
 			(at 277.876 84.836 0)
 			(effects
 				(font
@@ -13366,7 +13382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SI5442DU-T1-GE3"
+		(property "Datasheet" "SI5448DU-T1-GE3"
 			(at 256.286 87.376 0)
 			(effects
 				(font
@@ -13787,7 +13803,7 @@
 		(dnp no)
 		(uuid "8a03e3c2-2e6e-49f7-a751-6fdaa2e9e1df")
 		(property "Reference" "STMBOOT0"
-			(at 199.39 106.9975 90)
+			(at 183.388 105.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13796,7 +13812,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 199.39 109.5375 90)
+			(at 183.388 108.458 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14195,10 +14211,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a7494cd1-b941-47c6-bbf3-f3449afdfed9")
 		(property "Reference" "R4"
-			(at 198.12 96.5199 0)
+			(at 188.722 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14207,7 +14222,7 @@
 			)
 		)
 		(property "Value" "2.2K"
-			(at 198.12 99.0599 0)
+			(at 188.722 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14550,7 +14565,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SI5442DU-T1-GE3"
+		(property "Value" "SI5448DU-T1-GE3"
 			(at 277.876 101.346 0)
 			(effects
 				(font
@@ -14569,7 +14584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SI5442DU-T1-GE3"
+		(property "Datasheet" "SI5448DU-T1-GE3"
 			(at 256.286 103.886 0)
 			(effects
 				(font
@@ -15159,6 +15174,89 @@
 		)
 	)
 	(symbol
+		(lib_id "FST-5030:FST-5030")
+		(at 134.62 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8dc78b8-65f3-46b2-b693-f4e1ba9b32dc")
+		(property "Reference" "BUZ1"
+			(at 134.62 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FST-5030"
+			(at 134.62 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FUET-5030:BUZ-SMD_FST-5030"
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/367493.html"
+			(at 132.334 131.953 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C391031"
+			(at 134.62 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2311235b-edac-4690-811d-7031a2c4ea9e")
+		)
+		(pin "2"
+			(uuid "36e411b4-bffe-405a-ae2e-bf4c4ab4f9ce")
+		)
+		(pin "3"
+			(uuid "3b02471c-8804-4a61-83f0-9342551688cd")
+		)
+		(instances
+			(project ""
+				(path "/e12346fa-509d-4de9-8ab1-dced307292db"
+					(reference "BUZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 119.38 142.24 270)
 		(unit 1)
@@ -15369,7 +15467,7 @@
 		(at 273.05 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fd505bd4-c1e6-4840-9921-650b78f842bc")
@@ -15382,7 +15480,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SI5442DU-T1-GE3"
+		(property "Value" "SI5448DU-T1-GE3"
 			(at 277.876 145.796 0)
 			(effects
 				(font
@@ -15401,7 +15499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SI5442DU-T1-GE3"
+		(property "Datasheet" "SI5448DU-T1-GE3"
 			(at 256.286 148.336 0)
 			(effects
 				(font
