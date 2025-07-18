@@ -4930,23 +4930,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at -2.54 7.62 0)
+			(property "Reference" "Q1"
+				(at 8.636 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "NPN"
-				(at -2.54 5.08 0)
+			(property "Value" "S8050_C2146"
+				(at 4.572 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 				(at 63.5 0 0)
 				(effects
 					(font
@@ -4964,7 +4966,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5117,7 +5119,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5135,7 +5137,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5153,7 +5155,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13276,7 +13278,7 @@
 				)
 			)
 		)
-		(property "Value" "270k"
+		(property "Value" "220k"
 			(at 255.27 26.67 90)
 			(effects
 				(font
@@ -15274,7 +15276,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "180"
 			(at 119.38 138.43 90)
 			(effects
 				(font

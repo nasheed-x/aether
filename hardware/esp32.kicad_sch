@@ -5839,7 +5839,7 @@
 	)
 	(global_label "RFD_900"
 		(shape input)
-		(at 227.33 73.66 180)
+		(at 227.33 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5849,7 +5849,7 @@
 		)
 		(uuid "1a7d96fc-7539-486f-a566-a27662049c50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.1201 73.66 0)
+			(at 216.1201 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7419,7 +7419,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BLUE"
+		(property "Value" "ROYAL BLUE"
 			(at 241.6175 60.96 90)
 			(effects
 				(font
@@ -7895,7 +7895,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "EMERALD GREEN"
 			(at 241.6175 53.34 90)
 			(effects
 				(font
@@ -8840,7 +8840,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 231.14 73.66 270)
+		(at 231.14 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8848,7 +8848,7 @@
 		(dnp no)
 		(uuid "9002aa49-c75b-43d0-8da7-d635d4c98a89")
 		(property "Reference" "R47"
-			(at 231.14 71.12 90)
+			(at 231.14 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8856,7 +8856,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 231.14 73.66 90)
+			(at 231.14 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8864,7 +8864,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 231.14 71.882 90)
+			(at 231.14 40.132 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8873,7 +8873,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 73.66 0)
+			(at 231.14 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8882,7 +8882,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 73.66 0)
+			(at 231.14 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9043,7 +9043,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 238.76 73.66 180)
+		(at 238.76 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9051,7 +9051,7 @@
 		(dnp no)
 		(uuid "9c627579-d5a0-4182-9538-358786bd88c7")
 		(property "Reference" "D4"
-			(at 238.76 71.12 90)
+			(at 238.76 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9059,8 +9059,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "YELLOW"
-			(at 241.6175 69.85 90)
+		(property "Value" "RUBY RED"
+			(at 241.6175 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9070,7 +9070,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 238.76 73.66 0)
+			(at 238.76 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9079,7 +9079,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 73.66 0)
+			(at 238.76 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9088,7 +9088,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 73.66 0)
+			(at 238.76 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9364,7 +9364,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 73.66 90)
+		(at 242.57 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9373,7 +9373,7 @@
 		(fields_autoplaced yes)
 		(uuid "b370a15e-db85-41d5-8885-4247311a4f7d")
 		(property "Reference" "#PWR01"
-			(at 248.92 73.66 0)
+			(at 248.92 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9382,7 +9382,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 246.38 73.66 90)
+			(at 246.38 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9392,7 +9392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 73.66 0)
+			(at 242.57 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9401,7 +9401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 73.66 0)
+			(at 242.57 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9410,7 +9410,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 73.66 0)
+			(at 242.57 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10271,7 +10271,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "ORANGE"
 			(at 241.6175 45.72 90)
 			(effects
 				(font
